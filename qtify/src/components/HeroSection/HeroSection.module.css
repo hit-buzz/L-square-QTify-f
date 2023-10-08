@@ -1,9 +1,24 @@
 .hero{
     display: flex;
-    width: 1440px;
-    height: 270px;
-    flex-shrink: 0;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-end;
-    background: var(--color-black);
+    width: 100%;
+    height: 270;
+}
+.heroContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+
+}
+
+.heroContent1{
+    display: flex;
+    justify-content: center;
+    color: var(--color-white);
+    width: 605px;
+    text-align: center;
+
 }
